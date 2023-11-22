@@ -1,0 +1,86 @@
+
+@media (max-width: 1111px) {
+    header .containerr h1{
+        color: #ffffff;
+        text-shadow: 2px 2px 8px  #000000;
+        z-index: 1;
+        font-size: 40px;
+    
+    }
+    header .containerr button {
+        width: 120px;
+        margin: 10px;
+        padding-top: 20px;
+        font-size:15px ;
+        padding-bottom: 20px;
+        border: solid 1px #000000;
+        background-color: #ffffff;
+        color: #000000;
+        font-weight: bold;
+        border-radius: 10px;
+        cursor: pointer;
+        z-index: 1;
+        box-shadow:1px 1px 5px 1px #000000;
+    }
+    section .containerr {
+        margin-top: 20px;
+        padding: 50px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        display: flex;
+        color: #000000;
+        box-shadow: -1px -1px 14px 5px #000000;
+    }
+    .container {
+        display: flex;
+        gap: .5em;
+        justify-content: center;
+        font-size: 4.25rem;
+        color: #000000;
+        visibility: hidden;
+    }
+}
+@media (max-width: 824px){
+    #birth .containerr{
+        width: 700px;
+    }
+    .container{
+        display: grid;
+    }
+    body:before {
+        height: 1500px;
+        
+    }
+}
+@media (max-width: 824px){
+    #birth .containerr{
+        display: grid;
+        width: 500px;
+    }
+    body:before {
+        height: 1900px;
+        
+    }
+}
+@media (max-width: 824px){
+    #birth .containerr{
+        display: grid;
+        width: 400px;
+        padding: 30px;
+    }
+    body:before {
+        height: 1900px;
+        
+    }
+    header .containerr h1{
+        font-size: 35px;
+    }
+}
+@media (max-width: 824px){
+    #birth .containerr{
+        display: grid;
+        width: 350px;
+        padding: 30px;
+    }
+
+}

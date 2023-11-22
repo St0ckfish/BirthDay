@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BirthDay</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="containerr">
+                <h1>Choose What Do You To Calculate</h1>
+                <div>
+                    <button id="nextyear" type="button">Next Year</button>
+                    <button id="nextbirth" type="button">Next BirthDay</button>
+                </div>
+            </div>
+        </header>
+        <section id="birth">
+            <div>
+                <input type="text" id="namee" placeholder="Name">
+                <p class="req" id="req0">required</p>
+            </div>
+            <div class="containerr">
+                <div>
+                    <h1>Enter Your BirthDay:</h1>
+                </div>
+                <div>
+                    <input type="number" id="day" name="day" placeholder="Day" value="5" min="1" max="31">
+                    <p class="req" id="req1">required</p>
+                </div>
+                <div>
+                    <input type="number" id="month" name="month" placeholder="Month" value="12" min="1" max="12">
+                    <p class="req" id="req2">required</p>
+                </div>
+                <div>
+                    <input type="number" id="year" name="year" placeholder="Year" min="1900">
+                    <p class="req" id="req3">required</p>
+                </div>
+
+                <div>
+                    <input type="submit" value="submit" id="submit">
+                </div>
+
+            </div>
+
+        </section>
+        
+            <div class="container">
+                <div class="container-segment">
+                    <div class="segment-title">Days</div>
+                    <div class="segment">
+                        <div class="flip-card" data-days-hundred>
+                            <div class="top">0</div>
+                            <div class="bottom">0</div>
+                        </div>
+                        <div class="flip-card" data-days-tens>
+                            <div class="top">0</div>
+                            <div class="bottom">0</div>
+                        </div>
+                        <div class="flip-card" data-days-ones>
+                            <div class="top">0</div>
+                            <div class="bottom">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-segment">
+                    <div class="segment-title">Hours</div>
+                    <div class="segment">
+                        <div class="flip-card" data-hours-tens>
+                            <div class="top">0</div>
+                            <div class="bottom">0</div>
+                        </div>
+                        <div class="flip-card" data-hours-ones>
+                            <div class="top">0</div>
+                            <div class="bottom">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-segment">
+                    <div class="segment-title">Minutes</div>
+                    <div class="segment">
+                        <div class="flip-card" data-minutes-tens>
+                            <div class="top">0</div>
+                            <div class="bottom">0</div>
+                        </div>
+                        <div class="flip-card" data-minutes-ones>
+                            <div class="top">0</div>
+                            <div class="bottom">0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-segment">
+                    <div class="segment-title">Seconds</div>
+                    <div class="segment">
+                        <div class="flip-card" data-seconds-tens>
+                            <div class="top">0</div>
+                            <div class="bottom">0</div>
+                        </div>
+                        <div class="flip-card" data-seconds-ones>
+                            <div class="top">0</div>
+                            <div class="bottom">0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="Birthday">
+                <h1>Until Your 21st Birthday!</h1>
+            </div>
+        <footer class="footer">
+            <div>
+                <p>CopyRight &copy; <a href="https://mostapha-taha.vercel.app">Mostapha Taha</a></p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="main.js"></script>
+    <script src="name.js"></script>
+</body>
+
+</html>
