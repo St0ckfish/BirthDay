@@ -25,7 +25,7 @@ document.querySelector("#nextyear").addEventListener("click", () => {
   // console.log(days);
 
   document.querySelector("#nextbirth").style.visibility = "hidden";
-  document.querySelector("#birth").style.visibility = "hidden";
+  document.querySelector("#birth").style.display = "none";
   document.querySelector(".container").style.visibility = "visible";
   document.querySelector(".Birthday h1").innerHTML = `${cyearr+1}`;
   document.querySelector(".Birthday").style.visibility = "visible";
